@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetadora Web | Beatriz Muñoz Abellan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/svg" href="/img/icon.svg">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><strong>Beatriz Muñoz Abellan</strong></div>
+        <nav>
+
+            <ul>
+                <li><a href="#hero" class="nav-link">Inicio</a></li>
+                <li><a href="#experiencia-tech" class="nav-link">Formación</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1><span>Maquetadora Web</span></h1>
+                <p>Desarrolladora Full-Stack con enfoque en Frontend. Especializada en transformar diseños en
+                    aplicaciones web interactivas y escalables.</p>
+                <div class="hero-btns">
+                    <a href="#proyectos" class="btn btn-primary">Proyectos</a>
+                    <a href="Curriculum-vitae-Beatriz-Munoz.pdf" class="btn btn-outline" download>Descargar CV</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="/img/fondo.png" alt="Ilustración de desarrollo web" loading="eager">
+            </div>
+        </section>
+
+        <section id="experiencia-tech">
+            <h2 class="section-title">Formación y Experiencia</h2>
+            <div class="grid">
+                <article class="card">
+                    <div class="card-icon"><i class="fa-solid fa-server"></i></div>
+                    <div class="card-content">
+                        <h3>Grado Medio SMX</h3>
+                        <p>Sistemas Microinformáticos y Redes en Ins El Estatut (2017-2019).</p>
+                        <div class="tags">
+                            <span>Sistemas</span><span>Mantenimiento</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="card-content">
+                        <h3>Grado Superior DAW</h3>
+                        <p>Desarrollo de Aplicaciones Web en Stucom, Barcelona (2021-2023).</p>
+                        <div class="tags">
+                            <span>Proyectos Web</span><span>Bases de Datos</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <div class="card-content">
+                        <h3>Developer (Prácticas)</h3>
+                        <p>Meetmaps, Barcelona (2023). Edición y gestión de apps para eventos.</p>
+                        <div class="tags">
+                            <span>Apps</span><span>Gestión de Eventos</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2 class="section-title">Mi Toolkit Técnico</h2>
+            <div class="skills-wrapper">
+                <div class="skills-group">
+                    <h3><i class="fa-solid fa-desktop"></i> Front-End</h3>
+                    <div class="skills-container">
+                        <div class="skill-pill purple"><i class="fa-brands fa-html5"></i> HTML</div>
+                        <div class="skill-pill purple"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+                        <div class="skill-pill purple"><i class="fa-brands fa-js"></i> JavaScript</div>
+                        <div class="skill-pill purple-bright"><i class="fa-brands fa-angular"></i> Angular</div>
+                        <div class="skill-pill purple-bright"><i class="fa-brands fa-react"></i> React</div>
+                    </div>
+                </div>
+
+                <div class="skills-group">
+                    <h3><i class="fa-solid fa-database"></i> Back-End</h3>
+                    <div class="skills-container">
+                        <div class="skill-pill dark"><i class="fa-brands fa-php"></i> PHP</div>
+                        <div class="skill-pill dark"><i class="fa-brands fa-symfony"></i> Symfony</div>
+                        <div class="skill-pill dark"><i class="fa-brands fa-laravel"></i> Laravel</div>
+                        <div class="skill-pill dark-soft"><i class="fa-solid fa-leaf"></i> MongoDB</div>
+                        <div class="skill-pill dark-soft"><i class="fa-solid fa-table"></i> MySQL</div>
+                    </div>
+                </div>
+
+                <div class="skills-group">
+                    <h3><i class="fa-solid fa-wrench"></i> Herramientas</h3>
+                    <div class="skills-container">
+                        <div class="skill-pill gray"><i class="fa-brands fa-git-alt"></i> Git</div>
+                        <div class="skill-pill gray"><i class="fa-solid fa-code"></i> VS Code</div>
+                        <div class="skill-pill gray"><i class="fa-solid fa-box-open"></i> VirtualBox</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="projects-container">
+                <article class="project-block">
+                    <div class="project-image">
+                        <img src="/img/Amuebla.png" alt="Gestión de Apps" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-number">01</span>
+                        <h3>AMUEBLA </h3>
+                        <p> </p>
+                        <div class="tags">
+                            <span>html</span>
+                            <span>css</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>Jason</span>
+                        </div>
+                        <a href="https://mueblesamuebla.com" target="_blank" class="btn btn-primary">Ver Proyecto</a>
+                    </div>
+                </article>
+
+                <article class="project-block">
+                    <div class="project-image">
+                        <img src="/img/Jornada.png" alt="E-commerce" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-number">02</span>
+                        <h3>I Jornada d'Acollida Sociolingüística</h3>
+                        <p></p>
+                        <div class="tags">
+                            <span>html</span>
+                            <span>css</span>
+                            <span>JavaScript</span>
+                            <span>Jason</span>
+                        </div>
+                        <a href="https://beatriz-munoz-abellan.github.io/jornada/" class="btn btn-primary"
+                            target="_blank">Ver Proyecto</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2 class="section-title">¿Hablamos?</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>¡Me encantaría formar parte de tu equipo!</h3>
+                    <p>Estoy en búsqueda activa de empleo como Maquetadora / Desarrolladora Frontend en empresas
+                        innovadoras. ¿Tienes una posición abierta o quieres
+                        conocerme mejor? Estoy a un mensaje de distancia.</p>
+                    <div class="contact-links">
+                        <p class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>beatrizmunozabellan@gmai.com</span>
+                        </p>
+                        <a href="https://www.linkedin.com/in/beatriz-muñoz-abellan-843460238/" target="_blank"
+                            class="contact-item">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/Beatriz-Munoz-Abellan" target="_blank" class="contact-item">
+                            <i class="fa-brands fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Tu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="carga.js"></script>
+</body>
+
+</html>
