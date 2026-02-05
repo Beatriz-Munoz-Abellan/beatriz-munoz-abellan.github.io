@@ -537,34 +537,30 @@ margin: auto;
 
 .skill-pill {
     padding: 0.75rem 1.4rem;
-    border-radius: 9999px;               
+    border-radius: 9999px;               /* más redondeado = 50px o 9999px */
     font-weight: 600;
     font-size: 1.1rem;
     display: flex;
     align-items: center;
     gap: 8px;
 
-    background: var(--primary);           
+    background: var(--primary);           /* #a855f7 */
     color: white;
-    box-shadow: var(--shadow-purple);     
+    box-shadow: var(--shadow-purple);     /* ya lo tienes, queda genial */
     transition: var(--transition);
+    border: 1px solid rgba(168, 85, 247, 0.2);  /* borde sutil para profundidad */
 }
 
-/* Iconos de < /> en todas */
-.skill-pill::before {
-    content: '<';
-    color: white;
-    opacity: 0.45;
-    margin-right: 5px;
-    font-weight: 300;
+/* Opcional: gradiente sutil si quieres más "premium" */
+.skill-pill {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
 }
 
+/* Los < /> en blanco semi-transparente para no competir con el morado */
+.skill-pill::before,
 .skill-pill::after {
-    content: '/>';
     color: white;
-    opacity: 0.45;
-    margin-left: 5px;
-    font-weight: 300;
+    opacity: 0.35;
 }
 
 /* ==========================================================================
