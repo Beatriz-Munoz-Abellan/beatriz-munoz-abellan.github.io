@@ -159,14 +159,11 @@ header a.active-link::after {
 
 .hamburger span {
     width: 26px;
-    
     height: 3px;
     background: var(--text);
     border-radius: 2px;
     transition: var(--transition);
 }
-
-
 
 /* Animación icono */
 .hamburger.active span:nth-child(1) {
